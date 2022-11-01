@@ -18,9 +18,12 @@ function Footer () {
                       name="email"
                       placeholder="email@example.com" 
                        className="input__class"/>
-                      <button type="submit" className="btn">
+                       <div className="btn__div">
+                       <button type="submit" className="btn">
                         Get Started For Free 
                       </button>
+                       </div>
+                    
                      </div>
                      
                 </div>

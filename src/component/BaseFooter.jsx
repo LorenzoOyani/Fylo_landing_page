@@ -12,10 +12,14 @@ function BaseFooter () {
                 </div>
 
              
+                <div className="enclosing__divs">
+
+               
                     <div className="contentss">
                         
                     <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ipsa.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur <br />
+                 adipisicing elit. Quia, ipsa.</p>
                 </div>
 
                 <div className="mid__contents">
@@ -48,7 +52,7 @@ function BaseFooter () {
                 </div>
                 
                 
-                  
+                </div>
                
             </div>
             </div>

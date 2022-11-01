@@ -1,4 +1,3 @@
-
 import NavBar from "./component/NavBar";
 import FirstSection from "./component/FirstSection";
 import Card from "./component/Card";
@@ -9,6 +8,7 @@ import './index.css'
 
 function App() {
 
+   
     return (
     <>
     <NavBar />

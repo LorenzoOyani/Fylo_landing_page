@@ -7,6 +7,7 @@ function NavBar() {
 
     return (
         <>
+        <div className="header__wrapper">
         <div className="header">
             <img src= {logo} alt="flo_logo"  className="logo_img"/>
             <ul className="list-item">
@@ -19,10 +20,10 @@ function NavBar() {
         <div className="section_class">
         <img src= {illustration} alt="intro_photo" className="sect_logo"/>
         <h2 className="sect-header">
-            All your files in one secure location <br /> accessible anywhere.
+            All your files in one secure location  accessible anywhere.
         </h2>
-        <p className="paragraph">Flo stores all your most important important files in one secure location <br />
-            Access them wherever you need, share and collaborate  <br /> friends, family and co-workers.
+        <p className="paragraph">Flo stores all your most important important files in one secure location 
+            Access them wherever you need, share and collaborate   friends, family and co-workers.
         </p>
         <div className="button_class">
         <button className="div_btn">
@@ -32,6 +33,8 @@ function NavBar() {
        
         </div>
         </section>
+        </div>
+       
         </>
     )
 

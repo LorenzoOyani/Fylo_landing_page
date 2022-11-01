@@ -53,17 +53,22 @@ function FirstSection() {
                     </div>
                 </div>
                 
-                <div className="last_content">
+             
+
+            </div>
+
+        </div>
+        <div className="last_content">
                         <img src={productive} alt="stay_productive" className="content-img" />
                         <div className="last_content_item">
                             <div className="inner-content">
-                            <h1>
-                        stay productive, <br />
+                            <h1 className="stay__productive">
+                        stay productive, 
                              wherever you are.
                         </h1>
                            
-                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
-                         Praesentium iure voluptatem consequuntur sunt. <br />
+                           <p className="last__content__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                         Praesentium iure voluptatem consequuntur sunt. 
                           Soluta sequi eaque ex quibusdam cum dolorem veritatis earum voluptate incidunt debitis?</p>
 
                             </div>
@@ -71,10 +76,6 @@ function FirstSection() {
                         </div>
                        
                         </div>
-
-            </div>
-
-        </div>
         
         </>
     )

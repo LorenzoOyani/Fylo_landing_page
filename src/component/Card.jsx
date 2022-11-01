@@ -39,7 +39,7 @@ function Card () {
                     </p>
                     <img src= {profile2}  alt="profile-1" className="image__class"/>
                     <h2 className="card__text1">
-                        Satish patel
+                        Bruce mckenzie
                     </h2>
                     <p className="card__text1">fonder & CEO Huddle</p>
                     </div>
@@ -56,7 +56,7 @@ function Card () {
                     </p>
                     <img src= {profile3}  alt="profile-1" className=" image__class" />
                     <h2 className="card__text1">
-                        Satish patel
+                        Eva Boyd
                     </h2>
                     <p className="card__text1">fonder & CEO Huddle</p>
                     </div>
